@@ -1,0 +1,136 @@
+*{margin: 0; padding: 0;}
+body{
+    background-color: black;
+}
+/*Cabeçalho*/
+header{
+    width: 100%;
+    height: 5rem;
+    background-color:#B0AFAF;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+header>div{
+    display: flex;
+    flex-direction: row;
+    font-size: 35px;
+    align-items: center;
+    margin-left: 50px;
+}
+header>a{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+    color: black;
+}
+/*Cabeçalho*/
+
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.resto{
+    margin-left: 175px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.li1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.div1{
+    border: solid white 1px;
+    border-radius: 10px;
+    width: 300px;
+    height: 70px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+}
+.div1>p{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: left;
+    color:white;
+    display: flex;
+    align-items: center;
+    
+}
+#titulo{
+    font-size: 22px;
+}
+.li2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.lugares{
+    width: 650px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 100px;
+
+}
+
+.li3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+
+/*Rodapé*/
+footer{
+    width: 100%;
+    height: 6rem;
+    background-color: #B0AFAF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#logo{
+    width: 25em;
+    display: flex;
+    flex-direction: row;
+}
+#logo>p{
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+#contatos{
+    font-size: 20px;
+    width: 23em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li{
+    display: flex;
+    flex-direction: row;
+}
+li>p{
+    display: flex;
+    align-items: center;
+}
+/*Rodapé*/
